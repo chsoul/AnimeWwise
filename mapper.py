@@ -200,6 +200,8 @@ class Mapper:
 
 			return name
 		elif self.mode in ["JSON", "TSV"]:
+			if not key in self.keys:
+				return None
 			return [self.keys[key]]
 
 	def reset(self):
