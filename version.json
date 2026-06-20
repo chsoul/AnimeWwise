@@ -1,6 +1,6 @@
 {
     "version": 223,
-    "mapsVersion": 135,
+    "mapsVersion": 137,
     "maps": [
         {
             "name": "hk4e.map",
@@ -20,7 +20,7 @@
         {
             "name": "beyond.map",
             "game": "Arknights Endfield",
-            "version": "1.1"
+            "version": "1.3"
         }
     ]
 }
