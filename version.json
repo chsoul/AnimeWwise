@@ -1,11 +1,11 @@
 {
     "version": 223,
-    "mapsVersion": 137,
+    "mapsVersion": 141,
     "maps": [
         {
             "name": "hk4e.map",
             "game": "Genshin Impact",
-            "version": "6.2"
+            "version": "6.6"
         },
         {
             "name": "hkrpg.map",
