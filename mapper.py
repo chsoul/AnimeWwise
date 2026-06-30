@@ -6,6 +6,13 @@ from filereader import FileReader
 
 class Mapper:
 	def __init__(self, mapping_file):
+		self.mode = None
+		self.keys = {}
+		self.languages = []
+		self.strings = bytearray()
+		self.words = bytearray()
+		self.files = bytearray()
+		self.music_keys = {}
 
 		### NORMAL MAP LOADING ###
 
@@ -205,9 +212,10 @@ class Mapper:
 			return [self.keys[key]]
 
 	def reset(self):
-		self.reader = None
-		self.languages.clear()
-		self.strings.clear()
-		self.words.clear()
-		self.files.clear()
-		self.music_keys.clear()
+		self.mode = None
+		self.keys = {}
+		self.languages = []
+		self.strings = bytearray()
+		self.words = bytearray()
+		self.files = bytearray()
+		self.music_keys = {}
